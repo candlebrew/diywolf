@@ -1,0 +1,137 @@
+body {
+  background-image: url("img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  background-attachment: fixed;
+}
+
+.contents {
+ width: 55%;
+ background-color: rgba(255,255,255,0.8);
+ margin: -10px auto 0 auto;
+ padding: 5px;
+}
+
+.offspringButton {
+  background-color: #1b2f4f;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 208px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.parentContainer {
+  width: 690px;
+  height: 100px;
+  margin: 10px auto 0px auto;
+  overflow: hidden;
+}
+
+.parent-name {
+  margin: 2px;
+  text-align: center;
+  width: 50%;
+}
+
+#mSelect {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+
+
+#fSelect {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  float: right;
+  overflow: hidden;
+}
+
+.parentgenes {
+  width: 50%;
+  margin: 2px;
+  text-align: center;
+}
+
+.markingContainer {
+  width: 690px;
+  height: 255px;
+  margin: 0px auto 10px auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+form {
+  height: 7px;
+}
+
+.markingContainer input {
+  font-size: 12px;
+  text-align: left;
+}
+
+#mmarkingSelect {
+  width: 50%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+#fmarkingSelect {
+  width: 50%;
+  height: 100%;
+  float: right;
+  overflow: hidden;
+}
+
+.markingcolor {
+  width: 30%;
+}
+
+.markingshape {
+  width: 45%;
+}
+
+.opacityinput {
+  width: 13%;
+}
+
+.offspringContainer {
+  position: relative;
+  width: 640px;
+  height: 500px;
+  margin: 20px auto 0 auto;
+  overflow: hidden;
+}
+
+.offspringContainer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 640px;
+  max-height: 500px;
+}
+
+
+#popup {
+    width: 300px;
+    padding: 8px;
+    position: fixed;
+    top: 30px;
+    cursor: pointer;
+    left: 30px;
+    background-color: rgba(55, 74, 67, 0.8);
+    color: #b0bfba;
+    border-radius: 10px;
+    font-family: "Open Sans";
+}
